@@ -1,0 +1,30 @@
+{
+  "name": "twilight-cell-1f8f",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "dark-wave-d0ac-d1",
+      "database_id": "8b984e59-00a0-43d9-b10f-27062cb464c7"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "saas-admin-template-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
